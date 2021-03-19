@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div id="headerLogo">
+            <img src="images/header_logo.png" alt="로고이미지">
+        </div> <!-- div#headerLogo -->
+
+        <nav id="gnb">
+            <ul id="mainMenu">
+                <li class="mainLi">
+                    <a href="#">소장처별</a>
+                    <ul class="subMenu">
+                        <li class="subLi"><a href="#">한국</a></li>
+                        <li class="subLi"><a href="#">프랑스</a></li>
+                        <li class="subLi"><a href="#">이탈리아</a></li>
+                        <li class="subLi"><a href="#">독일</a></li>
+                    </ul>
+                </li>
+                <li class="mainLi">
+                    <a href="#">장르별</a>
+                    <ul class="subMenu">
+                        <li class="subLi"><a href="#">회화</a></li>
+                        <li class="subLi"><a href="#">판화</a></li>
+                        <li class="subLi"><a href="#">공예/고대유물</a></li>
+                        <li class="subLi"><a href="#">그 외</a></li>
+                    </ul>
+                </li>
+                <li class="mainLi">
+                    <a href="#">테마별</a>
+                    <ul class="subMenu">
+                        <li class="subLi"><a href="#">초상화/인물</a></li>
+                        <li class="subLi"><a href="#">종교</a></li>
+                        <li class="subLi"><a href="#">신화/문학</a></li>
+                        <li class="subLi"><a href="#">일상/스포츠</a></li>
+                    </ul>
+                </li>
+                <li class="mainLi">
+                    <a href="#">시대별</a>
+                    <ul class="subMenu">
+                        <li class="subLi"><a href="#">1900년 이전</a></li>
+                        <li class="subLi"><a href="#">1900년대</a></li>
+                        <li class="subLi"><a href="#">현대</a></li>
+                        <li class="subLi"><a href="#">그 외</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav> <!-- nav#gnb -->
+    </header> <!-- header#header -->
+
+    <div id="subBG">
+        <div id="subBGArea">
+        </div> <!-- div#subBGArea -->
+    </div> <!-- div#subBG -->
+
+    <div id="wrap">
+
+        <div id="slide">
+            <div id="shuttleFrame">
+                <a href="#">
+                    <img src="images/slideShow_01.jpg" alt="슬라이드쇼이미지1">
+                    <span>시대의 작품 세계의 거장과 함께한 전시회</span>
+                </a>
+                <a href="#">
+                    <img src="images/slideShow_02.jpg" alt="슬라이드쇼이미지2">
+                    <span>야외 조형물 전시장 오픈</span>
+                </a>
+                <a href="#">
+                    <img src="images/slideShow_03.jpg" alt="슬라이드쇼이미지3">
+                    <span>명화와 함께 휴가 떠나요!
+                    </span>
+                </a>
+            </div> <!-- div#shuttleFrame -->
+        </div> <!-- div#slide -->
+
+        <div id="contents">
+            <div id="noticeArea">
+                <button type="button" id="noticeBtn">공지사항</button>
+                <div id="notice">
+                    <span class="subject noticePoint">2019 시민큐레이터 프로젝트</span> <span class="regDate noticePoint">2019/05/07</span>
+                    <span class="subject">SeMA신소장품 멀티-엑세스 4</span> <span class="regDate">2019/05/03</span>
+                    <span class="subject">월 북서울미술관 문화행사 일정</span> <span class="regDate">2019/02/22</span>
+                </div>
+            </div>
+            <div id="galleryArea">
+                <button type="button" id="galleryBtn">갤러리</button>
+                <div id="gallery">
+                    <a href="#"><img src="images/gallery_01.jpg" alt="갤러리이미지1" width="114" height="110"></a>
+                    <a href="#"><img src="images/gallery_02.jpg" alt="갤러리이미지2" width="114" height="110"></a>
+                    <a href="#"><img src="images/gallery_03.jpg" alt="갤러리이미지3" width="114" height="113"></a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="images/banner.png" alt="배너이미지" width="350" height="170">
+            </div>
+        </div> <!-- div#contents -->
+
+    </div> <!-- div#wrap -->
+
+    <footer id="footer">
+        <div id="footerLogo">
+            <img src="images/footer_logo.png" alt="푸터로고이미지">
+        </div>
+        <div id="copyright">
+            Ⓒ 2019 Milwaukee Art Museum
+        </div>
+        <div id="sns">
+            <a href="#">
+                <img src="images/icon1.png" alt="sns이미지" width="100" height="100">
+            </a>
+            <a href="#">
+                <img src="images/icon2.png" alt="sns이미지" width="100" height="100">
+            </a>
+            <a href="#">
+                <img src="images/icon3.png" alt="sns이미지" width="100" height="100">
+            </a>
+
+        </div>
+    </footer> <!-- footer#footer -->
+
+    <!-- 레이어 팝업 영역 -->
+    <div id="layerBG">
+        <div id="layerPopup">
+            <h1>["여름의 문턱", 5월 29일 &lt;콘서트+뮤지엄나이트&gt; 개최]</h1>
+            <p>
+                - 서울시립미술관은 5월 29일 수요일 19:00∽20:00 서소문 본관에서 옥상 세마휴에서 &lt;콘서트+뮤지엄나이트&gt; 개최합니다.
+                <br>
+                - '여름의 문턱'이라는 주제로 진행되는 이번 콘서트는
+                뮤지션 오지은의 공연으로 이루어지며, &lt;그렇게 정해진 길 위에서&gt;, &lt;NONE&gt; 등 10여 곡을 선보일 예정입니다.
+                <br>
+                - 오지은은 2018 SeMA 신소장품&lt;멀티-액세스 4913&gt;전과 연계한 뮤지엄나이트 프로그램의 뮤직 디렉터를 맡아
+                전시 작품과 어울리는 8개의 곡을 선곡한 바 있습니다.
+            </p>
+            <div id="layerBtn">
+                <button type="button" id="closeBtn">
+                    닫기
+                </button>
+            </div>
+        </div> <!-- div#layerPopup -->
+    </div> <!-- div#layerBG -->
+
+
+</body></html>
